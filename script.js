@@ -17,4 +17,4 @@ let expensesName=prompt("Введите обязательную статью р
 let expencesMoney=+prompt("Во сколько обойдется?");
 appdata.optionalExpences[expensesName]=expencesMoney;
 
-alert("Бюджет на 1 день "+(appdata.budget/30));
+alert(`Бюджет на 1 день ${appdata.budget / 30}`);
